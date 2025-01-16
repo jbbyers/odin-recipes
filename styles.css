@@ -1,16 +1,37 @@
 /* Home Page */
 
 .title {
-    color: lightblue;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
-    background-color: black;
+    background-color: bisque;
+    padding: 20px;
     text-align: center;
+    padding: 20px;
+    margin: auto;
 }
-.link {
+ul {
+    list-style-type: none;
+    margin-left: none;
+    padding-left: none;
+    background-color: bisque;
+    text-align: center;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    width: 400px;
+    margin: 20px auto;
+}
+li {
+    margin-left: none;
+    padding-left: none;
+    padding: 5px;
 }
 
+.ayo {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
 /* Add Your Own Recipe Page */
 
 .ayo-title {
